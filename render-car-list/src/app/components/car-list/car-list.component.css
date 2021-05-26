@@ -1,0 +1,33 @@
+#cars {
+    font-family: "Roboto", "Raleway", Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#cars th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#cars tr td {
+    padding: 8px;
+    border: 1px solid rgba(119, 119, 119, 0.603);
+}
+​
+#cars tr:nth-child(even){background-color: #f2f2f2;}
+​
+#cars tr:hover {background-color: #ddd;}
+​
+#cars th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: red;
+    color: #fff;
+}
+
+#cars td {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+}

@@ -1,0 +1,11 @@
+<div id="carList">
+    <h2>Lista de carros</h2>
+    <table id="cars">
+        <tr>
+            <th>Marcas</th>
+        </tr>
+        <tr *ngFor="let car of carsData">
+            <td>{{ car }}</td>
+        </tr>
+    </table>
+</div>
